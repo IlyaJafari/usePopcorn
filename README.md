@@ -28,7 +28,7 @@ A fun React app to search movies, track what you’ve watched, and keep quick st
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/your-username/usePopcorn.git
+   git clone https://github.com/ilyajafari/usePopcorn.git
    cd usePopcorn
 
    ```
