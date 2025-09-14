@@ -7,7 +7,7 @@ import { useKey } from "./useKey";
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
-const KEY = "7e4d000e";
+const KEY = process.env.REACT_APP_OMDB_API_KEY;
 
 export default function App() {
   const [query, setQuery] = useState("");
